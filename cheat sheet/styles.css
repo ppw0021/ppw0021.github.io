@@ -1,0 +1,52 @@
+.headings h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+#idHeadings {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+
+.question-link:visited {
+    color: #ffffff;
+}
+
+a,
+.answer {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.answer {
+    border: 1px solid #466995;
+    border-radius: 10px;
+    box-shadow: 0px 4px;
+}
+
+a:link {
+    color: #61bff9;
+}
+
+a:visited,
+.answer {
+    color: #466995;
+}
+
+a:hover,
+.answer:hover {
+    text-decoration: none;
+}
+
+a:active,
+.answer:active {
+    color: #DBE9EE;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px;
+}
