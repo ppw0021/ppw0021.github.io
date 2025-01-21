@@ -1,0 +1,117 @@
+/* https://yoksel.github.io/flex-cheatsheet/ */
+
+body {
+    background-color: black;
+    margin: 10px;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+}
+
+#logo {
+    height: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.navBar a {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100px; /* Optional: Set a fixed width for uniformity */
+    text-decoration: underline; /* Optional: Remove underline for cleaner appearance */
+}
+
+.mission {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#missionBg {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#banner {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+#banner h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#banner h4 {
+    margin: 0;
+}
+
+.totm {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.totmimgsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.totmObj {
+    margin: 10px;
+}
+
+.totmObj h4 {
+    margin: 10px 0 0 0;
+}
+.totmimgs {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.locations {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#floatingBanner {
+    position: absolute;
+    text-align: center;
+    width: 85%;
+}
+
+.locationContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locationBox {
+    padding: 10px 30px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.ending {
+    text-align: center;
+}
